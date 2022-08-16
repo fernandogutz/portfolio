@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/logoLargoFernaweb.svg" type="image/x-icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <script src="app.js"></script>
+        <script src="https://kit.fontawesome.com/3371869c73.js" crossorigin="anonymous"></script>
+        <title>Portfolio - fernandogutz</title>
+    </head>
+
+    <body>
+        <!-- Start Header -->
+        <div class="headerContainer">
+            <header class="header">
+                <div class="header__logo"><a href="#inicio"><img src="assets/img/logoLargoFernaweb.svg" alt="F de Fernando Gutz"></a></div>
+                <label for="checkMenu" id="barMenu" class="header__btn">
+                    Menú <i class="fa-solid fa-bars"></i>
+                </label>
+                <input type="checkbox" id="checkMenu" name="checkMenu">
+                <nav class="header__nav" id="navMenu">
+                    <label for="checkMenu" id="xMenu" class="header__btn">
+                        Cerrar <i class="fa-solid fa-xmark"></i>
+                    </label>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobre-mi">Sobre mí</a>
+                    <a href="#tecnologias">Tecnologías</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </header>
+        </div>
+        <!-- End Header -->
+
+
+        <!-- Start Hero-->
+        <div id="inicio" class="container containerHero">
+            <div class="hero">
+                <section class="hero__info">
+                    <p class="hero__subtitle hero__subtitle--prev"> <span id="heroHand" class="hero__hand">👋</span>  ¡Hola! Soy Fernando</p>
+                    <h1 class="hero__title desktopActive">Frontend web <span>Developer</span></h1>
+                    <h1 class="hero__title mobileActive">Frontend <span>Developer</span></h1>
+                    <p class="hero__subtitle">Desarrollo soluciones creativas para las Empresas y me divierto diseñando atractivas experiencias digitales.</p>
+                    <div class="hero__buttons">
+                        <a class="hero__btn btn-primary"href="#sobre-mi">Echa un vistazo</a>
+                        <a class="hero__btn btn-secondary hero__btn--contact" href="#contacto">Ponte en contacto</a>
+                    </div>
+                </section>
+                <div class="hero__img">
+                    <img src="assets/img/Fernando Gutiérrez NBG.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- End Hero-->
+
+
+        <!-- Start About-->
+        <div id="sobre-mi" class="containerAbout">
+            <div class="about">
+                <h2 class="about__title">Sobre mí</h2>
+                <p class="about__text">
+                    Mi camino comienza con el diseño web, especializándome en WordPress, trabajando como freelance para varias empresas y creando vínculos importantes con Agencias de Marketing y Estudios Creativos.
+                    <br>
+                    <br>
+                    Me sentía limitado como diseñador web, por lo cual me enfoqué en mejorar mis skills como programador con el fín de desarrollar proyectos más grandes,
+                    con tecnologías modernas y, lo más importante, proyectos que realmente me inspiren.
+                    <br>
+                    <br>
+                    Luego de un tiempo desarrollando muchas cosas como freelance (plantillas de correo con HTML y CSS, webs desde cero, plugins y temas para WordPress, etcétera), me encontré con Sense Contents, 
+                    la empresa en la cual trabajo actualmente como Desarrollador Web y en la que he podido desarrollar plataformas para proyectos increíbles y en áreas muy variadas, siendo mi favorita el área de Divulgación Científica,
+                     creando webs como <a href="https://nucleomilenioeris.cl">Nucleo Milenio ERIS</a> y <a href="https://genuniversal.cl">Gen Universal</a>.
+                    <br>
+                    <br>
+                    Gracias a este pequeño camino recorrido, he podido aprender muchísimo sobre otros campos relacionados, como Diseño UX y UI, Marketing Digital, Publicidad, entre otros conocimientos que me permitieron fundar
+                    <a href="https://bedigital.cl">Be Digital</a> y dirigir varios proyectos.
+                    <br>
+                    <br>
+                    😍 ¡Me encanta lo que hago! 😍 Me divierto creando soluciones creativas para las empresas, diseñando experiencias digitales y compartiendo mi conocimiento mediante asesorías, artículos y contenido en RRSS.
+                </p>
+            </div>
+        </div>
+        <!-- End About-->
+
+
+        <!-- Start Tech-->
+        <div id="tecnologias" class="containerTechnologies">
+            <div class="technologies">
+                <h2 class="technologies__title">Tecnologías</h2>
+                <div class="technologies__content">
+                    <div class="tech-list">
+                        <h4 class="tech__title">💙 HTML5</h4>
+                        <h4 class="tech__title">💙 CSS3/Sass/Bootstrap</h4>
+                        <h4 class="tech__title">💙 JavaScript/jQuey</h4>
+                        <h4 class="tech__title">💙 PHP 8</h4>
+                        <h4 class="tech__title">💙 MySQL</h4>
+                        <h4 class="tech__title">💙 WordPress, WooCommerce y Elementor</h4>
+                        <h4 class="tech__title">💙 Design: Figma, Inkscape, Pixlr y Canva</h4>
+                    </div>
+                    <div class="tech-img">
+                        <img src="assets/img/3D/manos/perfectRecortado.png" alt="perfect">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Tech-->
+
+
+        <!-- Start Projects-->
+        <div id="proyectos" class="fondoProjects">
+            <div class="containerProjects">
+                <div class="containerProjects__content">
+                    <h2 class="projects__title">Proyectos</h2>
+                    <div class="projects">
+                        <article class="project">
+                            <h4 class="project__tag">Emprendimiento</h4>
+                            <img class="project__img" src="assets/img/proyectos/beDigital.png" alt="Proyecto Be Digital">
+                            <section class="project__contentSection">
+                                <h3 class="project__title">Be Digital</h3>
+                                <p class="project__description">Be Digital es un estudio descentralizado que se especializa en la creación de productos y experiencias digitales. 
+                                    La construcción del sitio realmente no fue muy compleja (aunque tiene una interfaz de usuario muy guapa). Actualmente me encargo de dirigir
+                                     los proyectos y delegar la mayor parte de la ejecución a otros perfiles tech (devs, designers, marketers, etc.).
+                                </p>
+                                <p class="project__technologies"><strong><span>💻</span> Tecnologías:</strong> HTML5 - CSS3 - WordPress - Elementor</p>
+                                <a href="https://bedigital.cl/" target="_blank" class="project__btn btn-primary">Visitar sitio</a>
+                            </section>
+                        </article>
+                        <article class="project">
+                            <h4 class="project__tag">Proyecto personal</h4>
+                            <img class="project__img" src="assets/img/proyectos/fernandogutz.png" alt="Proyecto Portfolio">
+                            <section class="project__contentSection">
+                                <h3 class="project__title">Fernandogutz.com</h3>
+                                <p class="project__description">He desarrollado mi sitio web personal sin prepocesadores, librerías o frameworks. 
+                                    Es la nueva versión de mi portfolio (que anteriormente estaba desarrollado en WordPress) y es un buen espacio para 
+                                    mis experimentos, animaciones en CSS y efectos con JS. De momento es solo front, el back está en proceso al igual que el blog que comenzará a nutrirlo.
+                                </p>
+                                <p class="project__technologies"><strong><span>💻</span> Tecnologías:</strong> HTML5 - CSS3 - JavaScript - Git y GitHub</p>
+                                <a href="https://fernandogutz.com/" target="_blank" class="project__btn btn-primary">Visitar sitio</a>
+                            </section>
+                        </article>
+                        <article class="project">
+                            <h4 class="project__tag">Proyecto personal</h4>
+                            <img class="project__img" src="assets/img/proyectos/pomotask.png" alt="Proyecto App Pomotask">
+                            <section class="project__contentSection">
+                                <h3 class="project__title">Pomotask.tk</h3>
+                                <p class="project__description">Sí, lo sé, otro trillado gestor de tareas, sin embargo, quise ir un poco más allá del CRUD básico, integrando un temporizador Pomodoro y un Login de usuarios.
+                                    Este proyecto me ayudó a pulir mis skills con JavaScript (manipulación del DOM, Interval Timer, JS asíncrono) y me dió mucha soltura en el back (PHP orientado a objetos, consultas SQL, seguridad de datos, cifrado de información, etcétera).  
+                                </p>
+                                <p class="project__technologies"><span>💻</span> Tecnologías:</strong> HTML5 - CSS3 - Bootstrap - JavaScript - jQuery - AJAX - PHP - MySQL</p>
+                                <a href="https://pomotask.tk/" target="_blank" class="project__btn btn-primary">Visitar sitio</a>
+                            </section>
+                        </article>
+                        <article class="project">
+                            <h4 class="project__tag">Cliente</h4>
+                            <img class="project__img" src="assets/img/proyectos/delega.png" alt="Proyecto Web Delega">
+                            <section class="project__contentSection">
+                                <h3 class="project__title">Delega</h3>
+                                <p class="project__description">En mi época de Freelance tuve la oprtunidad de trabajar con increíbles personas y sus empresas, entre todos ellos destaco Delega,
+                                     un sitio web implementado en WordPress a través de un Child Theme maquetado desde cero (HTML y CSS). Con este proyecto logré adentrarme bastante en el core de WP, formando mis
+                                      bases para seguir desarrollando temas y plugins a medida con PHP. 
+                                </p>
+                                <p class="project__technologies"><span>💻</span> Tecnologías:</strong> HTML5 - CSS3 - JavaScript - jQuery - PHP - WordPress - WooCommerce</p>
+                                <a href="https://delega.cl/" target="_blank" class="project__btn btn-primary">Visitar sitio</a>
+                            </section>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Projects-->
+
+
+        <!-- Start Contact-->
+        <div id="contacto" class="containerContact">
+            <div class="contact">
+                <h2 class="contact__title">Ponte en contacto</h2>                
+                <h5 class="contact__mail"> <a href="mailto:hello@fernandogutz.com">hello@fernandogutz.com</a></h5>
+                <div class="contact__rrss">
+                    <a class="btn-primary" href="https://www.linkedin.com/in/fernandogutzz/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a class="btn-primary" href="https://www.instagram.com/fernandogutzz/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="btn-primary" href="https://github.com/fernandogutz" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- End Proyects-->
+
+        <div class="containerFooter">
+            <footer class="footer">
+                <p>Copyright © 2022 | FernandoGutz</p>
+                <p class="creditsContainer"><span class="beforeLoveFooter">Desarrollado por Fernando con </span> <span class="loveFooter">🧡</span></p>
+            </footer>
+        </div>
+    </body>
+</html>
