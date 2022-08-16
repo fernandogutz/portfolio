@@ -542,7 +542,6 @@ a {
         background-color: #101010e3;
         text-align: right;
         border-radius: 0 0 0 16px;
-        right: -100%;
         transition: all .5s;
     }
     .header__nav a {
@@ -553,8 +552,7 @@ a {
         right: 0;
     }
     #checkMenu:checked ~ .header__nav{
-        display: block !important;
-        right: 0;
+        display: block;
     }
 }
 @media (max-width: 600px) {
