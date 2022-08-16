@@ -553,7 +553,7 @@ a {
         right: 0;
     }
     #checkMenu:checked ~ .header__nav{
-        display: block;
+        display: block !important;
         right: 0;
     }
 }
