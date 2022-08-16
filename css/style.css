@@ -535,7 +535,7 @@ a {
     }
     .header__nav {
         position: absolute;
-        display: block;
+        display: none;
         top: 0;
         right: 0;
         padding: 30px 24px 32px 24px;
@@ -553,6 +553,7 @@ a {
         right: 0;
     }
     #checkMenu:checked ~ .header__nav{
+        display: block;
         right: 0;
     }
 }
